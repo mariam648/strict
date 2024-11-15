@@ -1,0 +1,177 @@
+body{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    font-size: medium;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-image: url(headerbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 10px;
+    height: 400px;
+}
+header a{
+    border: 1px solid lightskyblue;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.gray{
+    color: gray;
+    text-align: center;
+    margin: 10px 160px;
+    margin-bottom: 160px ;
+}
+.child{
+    font-size: 10px;
+    margin: 10px;
+}
+.parent{
+   display: flex;
+   justify-content: center;
+   gap: 40px;
+}
+.ca{
+    width: 80px;
+    height: 80px;
+}
+.father{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.son img{
+    margin-bottom:40px ;
+}
+.img{
+    background-image: url(contactbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative ;
+    width: 100%;
+    height: 700px;
+    
+}
+.color{
+    background-color: rgba(32, 40, 61, 0.8);
+    width: 100%;
+    height: 700px;
+}
+.content{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 380px ;
+    position: relative;
+}
+.size{
+    font-size:  50px;
+}
+header p{
+    margin: 30px;
+}
+.small{
+    margin: 10px 55px;
+}
+.big{
+    font-size: 30px;
+    font-weight: 100;
+}
+.ro{
+    font-size: 15px;
+}
+#uname{
+    background-color: rgba(32, 40, 61, 0.4)  ; ;
+    width: 500px;
+    padding: 15px;
+    border: 0.5px solid gray;
+    margin: 10px;
+    border-radius: 5px;
+}
+#email{
+    background-color:rgba(32, 40, 61, 0.4) ;
+    width: 500px;
+    padding: 15px;
+    border: 0.5px solid gray;
+    margin: 10px;
+    border-radius: 5px;
+}
+#message{
+    background-color:rgba(32, 40, 61, 0.4)  ;  
+    width: 518px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#ed{
+   position: absolute;
+   right: 300px;
+   top: 600px;
+   margin: 10px;
+   display: inline-block;
+}
+#ch{
+    position: absolute;
+    top: 608px;
+    right: 450px;
+   margin: 10px ;
+}
+#sub{
+    position: absolute;
+    top: 600px;
+    left: 440px;
+    background-color: rgba(32, 40, 61, 0.4) ; 
+    color: white;
+    border: 0.5px solid rgb(91, 176, 230);
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin: 10px;
+}
+#gr{
+    color: gray;
+    font-size: 15px;
+}
+#te{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-top: 50px;
+    display: inline-block;
+}
+footer{
+    position: relative;
+}
+footer p{
+    text-align: left;
+    color: gray;
+    font-size: 14px;
+    margin-left: 40px;
+}
+footer i{
+    font-size: 24px;
+    color: #1da1f2;
+   
+}
+#rt{
+    text-align: left;
+    position: absolute;
+    left: 1000px;
+}
